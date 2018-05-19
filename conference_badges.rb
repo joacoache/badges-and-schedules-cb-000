@@ -16,7 +16,9 @@ def assign_rooms(attendees)
   counter = 1
     attendees.each do |i|
       room_assignments << "Hello, #{i}! You'll be assigned to room #{counter.to_s}!"
-
+      counter += 1
+    end
+  room_assignments
 end
 
 def printer
