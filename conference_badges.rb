@@ -28,6 +28,6 @@ def printer(x)
     puts a
   end
   rooms.each do |b|
-    puts begin    
+    puts begin
   end
 end
