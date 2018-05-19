@@ -24,10 +24,12 @@ end
 def printer(x)
   badges = batch_badge_creator(x)
   rooms = assign_rooms(x)
+
   badges.each do |a|
     puts a
   end
+
   rooms.each do |b|
-    puts begin
+    puts b
   end
 end
